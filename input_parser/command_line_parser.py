@@ -27,6 +27,8 @@ class CommandLineParser(IInputParser):
     return [
       {'name': '--script-path', 'required': True, 'dest': 'script_path'},
       {'name': '--run-command', 'dest': 'run_command'},
+      {'name': '--sender-type', 'dest': 'sender_type'},
+      {'name': '--http-endpoint', 'dest': 'http_endpoint'},
     ]
 
 
